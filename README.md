@@ -1,4 +1,4 @@
-# SageMaker NeMo ASR Demo
+# NVIDIA NeMo on SageMaker Demo
 
 This repository provides a sample workflow for packaging and deploying NVIDIA NeMo models on SageMaker. The example uses the Parakeet RNNT ASR model, and the same process applies to other NeMo architectures.
 
