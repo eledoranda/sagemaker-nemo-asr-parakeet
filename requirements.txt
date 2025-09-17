@@ -1,0 +1,10 @@
+
+sagemaker
+boto3
+nemo_toolkit[asr]==2.0.0
+lightning==2.4.0
+torchmetrics==1.4.0.post0
+datasets<2.15
+pyarrow<14
+soundfile
+torchaudio

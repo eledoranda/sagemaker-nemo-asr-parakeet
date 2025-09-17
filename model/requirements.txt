@@ -1,0 +1,19 @@
+# Core – match the DLC (PyTorch 2.4 GPU, CUDA 12.4)
+torch==2.4.1
+torchaudio==2.4.1
+
+# NeMo ASR runtime + deps (compatible with PyTorch 2.4 in practice)
+nemo_toolkit[asr]==2.0.0
+sentencepiece==0.2.0
+hydra-core==1.3.2
+omegaconf==2.3.0
+
+# Audio I/O
+soundfile==0.12.1   # needs libsndfile (present in DLC)
+librosa==0.10.2.post1
+numba==0.59.1
+numpy==1.26.4       # safe pin with librosa/numba
+
+# Metrics/lightning – minimum runtime (NeMo will vendor these)
+pytorch-lightning==2.2.5
+torchmetrics==1.4.0.post0
